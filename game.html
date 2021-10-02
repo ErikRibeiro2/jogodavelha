@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <script src="scripts.js"></script>
+    <title>Game</title>
+</head>
+<body onload="zera()">
+    <div id="container-geral">
+        <table id="tabela">
+            <tr id="linha1">
+                <td id="casa1" onclick="casa1()"><img src="x.png" title="figura" id="img1" width="50%" ></td>
+                <td id="casa2" onclick="casa2()"><img src="x.png" title="figura" id="img2" width="50%" ></td>
+                <td id="casa3" onclick="casa3()"><img src="x.png" title="figura" id="img3" width="50%" ></td>
+            </tr>
+            <tr id="linha2">
+                <td id="casa4" onclick="casa4()"><img src="x.png" title="figura" id="img4" width="50%" ></td>
+                <td id="casa5" onclick="casa5()"><img src="x.png" title="figura" id="img5" width="50%"></td>
+                <td id="casa6" onclick="casa6()"><img src="x.png" title="figura" id="img6" width="50%" ></td>
+            </tr>
+            <tr id="linha3">
+                <td id="casa7" onclick="casa7()"><img src="x.png" title="figura" id="img7" width="50%" ></td>
+                <td id="casa8" onclick="casa8()"><img src="x.png" title="figura" id="img8" width="50%" ></td>
+                <td id="casa9" onclick="casa9()"><img src="x.png" title="figura" id="img9" width="50%" ></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="button" value="Reiniciar" onclick="zera()" id="botaoZera">
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>

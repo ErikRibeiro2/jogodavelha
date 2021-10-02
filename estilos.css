@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("fundo.png");
+    background-size: 30%;
+}
+#container-geral{
+    background-color: white;
+    border-radius: 13px;
+    width: 60%;
+    position: relative;
+    top: 15vh;
+    margin: auto;
+    text-align: center;
+    height: 400px;
+    padding: 5px;
+}
+#areajogo{
+    width: 95%;
+    height: 400px;
+}
+@media only screen and (max-width:570px){
+    #container-geral{
+        width: 80%;
+    }
+}
+@media only screen and (max-width:300px){
+    #areajogo{
+        width: 100%;
+    }
+}
